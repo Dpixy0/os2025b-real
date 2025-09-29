@@ -7,16 +7,16 @@ import (
 
 // ctrl + F5
 func main() {
-	var id int
-	var gpa float32 = 3.99
-	// var name string
-	// gpa := 3.99 // float64
+	// Zero values
+	var f64 float64
+	var i16 int16
+	var t bool
+	var s string
+	var i int
 
-	name := "kim Inha"
-	// id := 1000
-	id = 1000
-
-	fmt.Println(name, reflect.TypeOf(name))
-	fmt.Println(id, reflect.TypeOf(id))
-	fmt.Println(gpa, reflect.TypeOf(gpa))
+	fmt.Println(f64, reflect.TypeOf(f64))
+	fmt.Println(i16, reflect.TypeOf(i16))
+	fmt.Println(t, reflect.TypeOf(t))
+	fmt.Println(s, reflect.TypeOf(s))
+	fmt.Println(i, reflect.TypeOf(i))
 }
