@@ -7,23 +7,16 @@ import (
 
 // ctrl + F5
 func main() {
+	var id int
+	var gpa float32 = 3.99
 	// var name string
-	// var id int
+	// gpa := 3.99 // float64
 
-	// name = "Kim Inha"
-	// id = 1000
-	// fmt.Println(name, reflect.TypeOf(name))
-	// fmt.Println(id, reflect.TypeOf(id))
-
-	// var name string = "Kim Inha"
-	// var id int = 1000
-
-	// var name = "Kim Inha"
-	// var id = 1000
-
-	name := "Kim Inha"
-	id := 1000
+	name := "kim Inha"
+	// id := 1000
+	id = 1000
 
 	fmt.Println(name, reflect.TypeOf(name))
 	fmt.Println(id, reflect.TypeOf(id))
+	fmt.Println(gpa, reflect.TypeOf(gpa))
 }
