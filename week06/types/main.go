@@ -2,14 +2,28 @@ package main
 
 import (
 	"fmt"
-	"math"
-	"strings"
+	"reflect"
 )
 
 // ctrl + F5
 func main() {
-	fmt.Println(math.Ceil(2.31))
-	fmt.Println(strings.Title("go developer"))
-	fmt.Println("Kim\nInha\t\"\\") // Like C Language
-	fmt.Println('A', '가')
+	// var name string
+	// var id int
+
+	// name = "Kim Inha"
+	// id = 1000
+	// fmt.Println(name, reflect.TypeOf(name))
+	// fmt.Println(id, reflect.TypeOf(id))
+
+	// var name string = "Kim Inha"
+	// var id int = 1000
+
+	// var name = "Kim Inha"
+	// var id = 1000
+
+	name := "Kim Inha"
+	id := 1000
+
+	fmt.Println(name, reflect.TypeOf(name))
+	fmt.Println(id, reflect.TypeOf(id))
 }
