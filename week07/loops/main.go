@@ -10,7 +10,8 @@ import (
 func main() {
 	r := bufio.NewReader(os.Stdin)
 	i, err := r.ReadString('\n') //ignore error
-	log.Fatal(err)               // report the error, exit the program
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Println(i)
-	//fmt.Println(err)
 }
