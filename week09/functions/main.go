@@ -36,5 +36,5 @@ func main() {
 	} else {
 		status = "불합격"
 	}
-	fmt.Printf("%.2f점은 %s\n", score, status)
+	fmt.Printf("%.2f점은 %v\n", score, status)
 }
